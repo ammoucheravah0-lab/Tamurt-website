@@ -11,7 +11,7 @@ import RegionDrawer from "./RegionDrawer";
 import { PRODUCTS, REGIONS, requestMailto, whatsappLink, type Product } from "./regions";
 
 // Photo du désert importée pour l'optimisation Next.js
-import desertBg from "./Public/Desert-Algerie.jpg"; // Assure-toi que l'extension est correcte (.jpg, .png, etc.)
+import desertBg from "./public/Desert-Algerie.jpg"; // Assure-toi que l'extension est correcte (.jpg, .png, etc.)
 
 // Three.js n'est chargé que côté client, quand la section approche
 const AlgeriaMap3D = dynamic(() => import("./AlgeriaMap3D"), {
